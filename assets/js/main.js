@@ -282,3 +282,72 @@
   });
 
 })();
+
+
+  /**
+   * text addon
+   */
+
+function Clear(){
+  let = document.getElementById("result").innerHTML = " " 
+}
+
+function TimingBelt(){
+  Clear()
+  let = document.getElementById("result").innerHTML = "Leading Wholesale Trader of Single Sided Timing Belt, Single Sided Rubber Timing Belt, Black Rubber Timing Belt and Double Sided Timing Belt from Tiruppur." 
+}
+
+function StraightKnifeMachine(){
+  Clear()
+  let = document.getElementById("result").innerHTML = "We are a leading Wholesale Trader of Cloth Fabric Straight Knife Machine from Tiruppur, India." 
+}
+
+function SubAssyMachinedPulleyIdler(){
+  Clear()
+  let = document.getElementById("result").innerHTML = "Our range of products include Sub Assy Machined Pulley Idler." 
+}
+
+function CutterBristle(){
+  Clear()
+  let = document.getElementById("result").innerHTML = "We are a leading Wholesale Trader of Rectangular Cutter Bristle from Tiruppur, India." 
+}
+
+function CutterKnifeMotorCarbonBrushes(){
+  Clear()
+  let = document.getElementById("result").innerHTML = "Our range of products include Cutter Knife Motor Carbon Brushes." 
+}
+
+function GrindingWheelDresser(){
+  Clear()
+  let = document.getElementById("result").innerHTML = "Wholesale Trader of a wide range of products which include Grinding Wheel Dresser." 
+}
+
+function ArticulatedKnifeDrive(){
+  Clear()
+  let = document.getElementById("result").innerHTML = "We are a leading Wholesale Trader of Articulated Knife Drive from Tiruppur, India." 
+}
+
+function KnifeMotorSensor(){
+  Clear()
+  let = document.getElementById("result").innerHTML = "Pioneers in the industry, we offer Knife Motor Sensor from India." 
+}
+
+function CutterYokeAssembly(){
+  Clear()
+  let = document.getElementById("result").innerHTML = "Our range of products include Cutter Yoke Assembly." 
+}
+
+function CounterKnifeCarved(){
+  Clear()
+  let = document.getElementById("result").innerHTML = "Wholesale Trader of a wide range of products which include Counter Knife Carved." 
+}
+
+function CutterUpperStopper(){
+  Clear()
+  let = document.getElementById("result").innerHTML = "We are a leading Wholesale Trader of Cutter Upper Stopper from Tiruppur, India." 
+}
+
+function DoubleEndLatchSpring(){
+  Clear()
+  let = document.getElementById("result").innerHTML = "Prominent & Leading Wholesale Trader from Tiruppur, we offer Double End Latch Spring." 
+}

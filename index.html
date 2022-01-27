@@ -282,22 +282,24 @@
         <div class="row" data-aos="fade-up" data-aos-delay="100">
           <div class="col-lg-12 d-flex justify-content-center">
             <ul id="portfolio-flters">
-              <li data-filter="*" class="filter-active">All</li>
-              <li data-filter=".filter-app">Timing Belt</li>
-              <li data-filter=".filter-card">Straight Knife Machine</li>
-              <li data-filter=".filter-web">Sub Assy Machined Pulley Idler</li>
-              <li data-filter=".filter-1">Cutter Bristle</li>
-              <li data-filter=".filter-2">Cutter Knife Motor Carbon Brushes</li>
-              <li data-filter=".filter-3">Grinding Wheel Dresser</li>
-              <li data-filter=".filter-4">Articulated Knife Drive</li>
-              <li data-filter=".filter-5">Knife Motor Sensor</li>
-              <li data-filter=".filter-6">Cutter Yoke Assembly</li>
-              <li data-filter=".filter-7">Counter Knife Carved</li>
-              <li data-filter=".filter-8">Cutter Upper Stopper</li>
-              <li data-filter=".filter-9">Double End Latch Spring</li>
+              <li data-filter="*" class="filter-active" onclick="Clear()">All</li>
+              <li data-filter=".filter-app" onclick="TimingBelt()">Timing Belt</li>
+              <li data-filter=".filter-card" onclick="StraightKnifeMachine()">Straight Knife Machine</li>
+              <li data-filter=".filter-web" onclick="SubAssyMachinedPulleyIdler()">Sub Assy Machined Pulley Idler</li>
+              <li data-filter=".filter-1" onclick="CutterBristle()">Cutter Bristle</li>
+              <li data-filter=".filter-2" onclick="CutterKnifeMotorCarbonBrushes()">Cutter Knife Motor Carbon Brushes</li>
+              <li data-filter=".filter-3" onclick="GrindingWheelDresser()">Grinding Wheel Dresser</li>
+              <li data-filter=".filter-4" onclick="ArticulatedKnifeDrive()">Articulated Knife Drive</li>
+              <li data-filter=".filter-5" onclick="KnifeMotorSensor()">Knife Motor Sensor</li>
+              <li data-filter=".filter-6" onclick="CutterYokeAssembly()">Cutter Yoke Assembly</li>
+              <li data-filter=".filter-7" onclick="CounterKnifeCarved()">Counter Knife Carved</li>
+              <li data-filter=".filter-8" onclick="CutterUpperStopper()">Cutter Upper Stopper</li>
+              <li data-filter=".filter-9" onclick="DoubleEndLatchSpring()">Double End Latch Spring</li>
             </ul>
           </div>
         </div>
+
+        <p id="result" style="text-align: center; font-weight: bold;"></p>
 
         <div class="row gy-4 portfolio-container" data-aos="fade-up" data-aos-delay="200">
 
@@ -615,7 +617,7 @@
                 </div>
               </div>
               <div class="member-info">
-                <h4>Walter White</h4>
+                <h4>Ram</h4>
                 <span>Chief Executive Officer</span>
                 <p>Velit aut quia fugit et et. Dolorum ea voluptate vel tempore tenetur ipsa quae aut. Ipsum exercitationem iure minima enim corporis et voluptate.</p>
               </div>
@@ -634,7 +636,7 @@
                 </div>
               </div>
               <div class="member-info">
-                <h4>Sarah Jhonson</h4>
+                <h4>Kumar</h4>
                 <span>Product Manager</span>
                 <p>Quo esse repellendus quia id. Est eum et accusantium pariatur fugit nihil minima suscipit corporis. Voluptate sed quas reiciendis animi neque sapiente.</p>
               </div>
@@ -653,7 +655,7 @@
                 </div>
               </div>
               <div class="member-info">
-                <h4>William Anderson</h4>
+                <h4>John</h4>
                 <span>CTO</span>
                 <p>Vero omnis enim consequatur. Voluptas consectetur unde qui molestiae deserunt. Voluptates enim aut architecto porro aspernatur molestiae modi.</p>
               </div>
@@ -672,7 +674,7 @@
                 </div>
               </div>
               <div class="member-info">
-                <h4>Amanda Jepson</h4>
+                <h4>Navin</h4>
                 <span>Accountant</span>
                 <p>Rerum voluptate non adipisci animi distinctio et deserunt amet voluptas. Quia aut aliquid doloremque ut possimus ipsum officia.</p>
               </div>
